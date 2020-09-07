@@ -71,7 +71,23 @@ p{
 .brand h1 span{
     color: rgb(94, 153, 243);
 }
+/*Social*/
 
+nav{
+    position: fixed;
+    width: 40px;
+    margin-top: 150px;
+    transition: all 0.3s linear;
+    
+  }
+  a img{
+    filter: grayscale(1); 
+    transition: ease .3s;
+  }
+  a:hover img{
+    filter: grayscale(0); 
+  }
+ /*Social*/
 /*header section*/
 #header{
     position: fixed;
@@ -640,6 +656,15 @@ h1.section-title{
 #header .nav-list ul.active{
     left: 70%;
 }
+     /*Social*/
+nav{
+    position: fixed;
+    width: 60px;
+    margin-top: 150px;
+    transition: all 0.3s linear;
+    
+  }
+   /*Social*/
 /*hero*/
 #hero h1{
     font-size: 7rem;
@@ -766,6 +791,16 @@ h1.section-title{
 
 /*Media query for desktop*/
 @media screen and (min-width:1200px){
+    
+      /*Social*/
+    nav{
+        position: fixed;
+        width: 70px;
+        margin-top: 150px;
+        transition: all 0.3s linear;
+        
+      }
+       /*Social*/
 /*service section*/
 #services .service-bottom .service-item{
     flex-basis: 22%;
