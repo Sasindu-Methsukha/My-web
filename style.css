@@ -645,7 +645,7 @@ transition-property: top,bottom;
 /*end key frames*/
 
 /*Media query for tablet*/
-@media screen and (min-width:740px) {
+@media screen and (min-width:760px) {
     .cta{
         font-size: 2.5rem;
         padding: 20px 60px;
